@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    password: 
+    url: jdbc:h2:file:c:/h2data/sample
+    username: sa
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
